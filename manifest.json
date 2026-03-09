@@ -1,0 +1,30 @@
+{
+  "name": "口袋伙伴",
+  "short_name": "口袋伙伴",
+  "description": "养育你的专属宠物，探索世界，结交好友",
+  "start_url": "./index.html?source=pwa",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f0e17",
+  "theme_color": "#7c6aff",
+  "lang": "zh-CN",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "我的宠物",
+      "short_name": "宠物",
+      "url": "./index.html?shortcut=pets",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "去旅行",
+      "short_name": "旅行",
+      "url": "./index.html?shortcut=travel",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
